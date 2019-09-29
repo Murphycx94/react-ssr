@@ -1,0 +1,21 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.41.0"
+  },
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-router": "^5.1.1",
+    "react-router-dom": "^5.1.1"
+  }
+}
