@@ -15,6 +15,6 @@ module.exports = merge(baseConfig, {
     libraryTarget: 'commonjs2',
     libraryExport: 'default'
   },
-  // target: 'node',
+  target: 'node',
   plugins: []
 })
