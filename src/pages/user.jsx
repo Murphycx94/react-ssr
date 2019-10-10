@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 
 export default class App extends Component {
+  static asyncData () {
+    return { data: 1 }
+  }
+
+  componentWillMount () {
+    console.log('User:', this.props.staticContext)
+  }
 
   render() {
     return (

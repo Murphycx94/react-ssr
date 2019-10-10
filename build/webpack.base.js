@@ -1,6 +1,12 @@
+const path = require('path')
+const resolve = (_path) => path.join(__dirname, '..', _path)
+
 module.exports = {
   resolve: {
-    extensions: ['.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json'],
+    alias: {
+      '@': resolve('src')
+    }
   },
   module: {
     rules: [
